@@ -1,2 +1,2 @@
 ## Cards
-This Project Genrated With Go Programming Language.
+This Project Generated With Go Programming Language.
