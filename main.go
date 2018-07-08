@@ -1,13 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	// var card string = "Ace of Spades"
-	card := newCard()
-	fmt.Println(card)
+	cards := deck{"Ace Of Diamonds", newCard()}
+	cards = append(cards, "Six Of Spades")
+	cards.print()
 }
 
 func newCard() string {
